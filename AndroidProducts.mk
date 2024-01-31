@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_natrium.mk
+    $(LOCAL_DIR)/twrp_natrium.mk
