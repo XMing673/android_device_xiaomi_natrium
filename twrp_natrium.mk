@@ -20,14 +20,14 @@ PRODUCT_RELEASE_NAME := natrium
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Time Zone data for recovery
 PRODUCT_COPY_FILES += \
     bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_natrium
+PRODUCT_NAME := twrp_natrium
 PRODUCT_DEVICE := natrium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 5s Plus
