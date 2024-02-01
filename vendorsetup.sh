@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_natrium-user
-add_lunch_combo omni_natrium-userdebug
-add_lunch_combo omni_natrium-eng
+add_lunch_combo twrp_natrium-user
+add_lunch_combo twrp_natrium-userdebug
+add_lunch_combo twrp_natrium-eng
