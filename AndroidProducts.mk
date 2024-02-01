@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_natrium.mk
+    $(LOCAL_DIR)/omni_natrium.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_natrium-user \
-    twrp_natrium-userdebug \
-    twrp_natrium-eng
+    omni_natrium-user \
+    omni_natrium-userdebug \
+    omni_natrium-eng
